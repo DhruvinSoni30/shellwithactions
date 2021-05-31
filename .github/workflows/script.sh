@@ -10,6 +10,4 @@ function generate_number(){
     echo $i,$RANDOM >> $file_location
     done
 }
-
-check_existance_of_file
 generate_number $1
