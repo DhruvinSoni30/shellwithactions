@@ -1,0 +1,9 @@
+name: Executing Shell Script with Actions
+on: [push]
+jobs:
+  executing-script:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: script.sh
+
