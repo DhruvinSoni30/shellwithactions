@@ -1,5 +1,5 @@
-
-function generate_number(){
+#bin/bash
+function generate_number() { 
     if [ -z "$1" ]
     then
         Total_Numbers=10
