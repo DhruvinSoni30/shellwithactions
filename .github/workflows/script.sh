@@ -7,7 +7,8 @@ function generate_number() {
         Total_Numbers=$1
     fi
     for ((i = 0; i < ${Total_Numbers}; i++)); do
-    echo $i,$RANDOM >> $file_location
+    echo $i,$RANDOM >> number.txt
+    cat number.txt
     done
 }
 generate_number $1
