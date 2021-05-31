@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: chmod +x ../script.sh
-      - run: sh ../script.sh
+      - run: chmod +x .github/workflows/script.sh
+      - run: sh .github/workflows/script.sh
         shell: bash
 
