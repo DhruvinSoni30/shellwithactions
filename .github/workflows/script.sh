@@ -7,7 +7,7 @@
     else
         Total_Numbers=$1
     fi
-    for (i = 0; i < ${Total_Numbers}; i++); do
+    for ((i = 0; i < ${Total_Numbers}; i++)); do
     echo $i,$RANDOM >> number.txt
     done
 
