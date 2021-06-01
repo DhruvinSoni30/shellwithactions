@@ -1,7 +1,5 @@
-#binn/bash
+#bin/bash
 
-function generate_number()
-{
  
     if [ -z "$1" ]
     then
@@ -12,6 +10,5 @@ function generate_number()
     for (i = 0; i < ${Total_Numbers}; i++); do
     echo $i,$RANDOM >> number.txt
     done
-}
 
 generate_number $1
