@@ -24,3 +24,6 @@ hostname -f
 
 # Checking date & time
 date
+
+# Checking who is running the script
+whoami
